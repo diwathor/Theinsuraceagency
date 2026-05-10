@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Insurance Agency | Insurance & Financial Solutions Hyderabad</title>
+  <meta name="description" content="Life Insurance, MSME Insurance, Health Insurance, Motor Insurance, Loans and Business Protection Solutions in Hyderabad." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="topbar">
+  <div>KPHB Colony, Hyderabad, Telangana</div>
+  <div>9052300600</div>
+  <div>support@theinsuranceagency.in</div>
+</header>
+
+<nav class="navbar">
+  <div class="logo">
+    <span>TheInsuranceAgency.in</span>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#business">Business Solutions</a></li>
+    <li><a href="#claims">Claims</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <a href="#lead-form" class="btn primary-btn">Get Consultation</a>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-content fade-up">
+    <h1>One Agency.<br>Multiple Solutions.<br><span>Complete Protection.</span></h1>
+
+    <p>
+      Life Insurance, MSME Insurance, Health Insurance,
+      Motor Insurance, Business Protection and Loan Solutions.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#lead-form" class="btn primary-btn">Free Consultation</a>
+      <a href="https://wa.me/919052300600" class="btn secondary-btn">WhatsApp Us</a>
+    </div>
+  </div>
+
+  <div class="hero-image fade-up">
+    <img src="assets/images/hero-family-business.jpg" alt="Insurance Banner">
+  </div>
+</section>
+
+<section class="marquee-section">
+  <div class="marquee">
+    <div class="track">
+      <a href="#lead-form">Life Insurance</a>
+      <a href="#lead-form">Health Insurance</a>
+      <a href="#lead-form">Motor Insurance</a>
+      <a href="#lead-form">MSME Insurance</a>
+      <a href="#lead-form">Home Insurance</a>
+      <a href="#lead-form">Keyman Insurance</a>
+      <a href="#lead-form">Group Insurance</a>
+      <a href="#lead-form">Business Loans</a>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <h2 class="section-title">Insurance & Financial Services</h2>
+
+  <div class="service-grid">
+    <div class="card fade-up">
+      <h3>Life Insurance</h3>
+      <p>LIC plans, pension, child plans and term insurance.</p>
+    </div>
+
+    <div class="card fade-up">
+      <h3>Health Insurance</h3>
+      <p>Niva Bupa and family health insurance solutions.</p>
+    </div>
+
+    <div class="card fade-up">
+      <h3>General Insurance</h3>
+      <p>Motor, fire, marine and liability insurance.</p>
+    </div>
+
+    <div class="card fade-up">
+      <h3>Loans</h3>
+      <p>Business loans, LAP, home loans and personal loans.</p>
+    </div>
+  </div>
+</section>
+
+<section class="lead-section" id="lead-form">
+  <div class="form-box fade-up">
+    <h2>Get Expert Insurance Guidance</h2>
+
+    <form action="https://formsubmit.co/support@theinsuranceagency.in" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="tel" name="mobile" placeholder="Mobile Number" required>
+      <input type="email" name="email" placeholder="Email Address">
+      <textarea name="message" placeholder="Message"></textarea>
+      <button type="submit" class="btn primary-btn">Get Free Consultation</button>
+    </form>
+  </div>
+</section>
+
+<footer id="contact">
+  <h3>The Insurance Agency</h3>
+  <p>KPHB Colony, Hyderabad, Telangana</p>
+  <p>9052300600</p>
+  <p>support@theinsuranceagency.in</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
